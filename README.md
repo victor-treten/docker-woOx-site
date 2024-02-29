@@ -1,4 +1,4 @@
-# Deploying the Woox Website with Docker and Nginx
+# Deploying the WoOx Website with Docker and Nginx
 
 Deployment automated with bash scripts.
 
