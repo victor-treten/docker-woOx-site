@@ -23,7 +23,7 @@ echo -e  "\n"
 
 echo "******************************************"
 echo "Deleting woox-image tagged to your docker hub local repository:"
-docker rmi victortreten/repo_test:woox
+docker rmi odennav/nginx:woox
 sleep 5
 echo -e  "\n"
 

@@ -10,7 +10,7 @@ echo -e "\n"
 echo "**********************************************************"
 echo "Editing Dockerfile"
 echo "FROM nginx:alpine" > Dockerfile
-echo "COPY ./2109_the_woox/ /usr/share/nginx/html" >> Dockerfile
+echo "COPY ./templatemo_580_woox_travel/ /usr/share/nginx/html" >> Dockerfile
 echo -e "\n"
 
 echo "**********************************************************"
@@ -50,13 +50,13 @@ echo -e "\n"
 
 echo "**********************************************************"
 echo "Tag image to repository with woox tag"
-docker tag woox-image:woox victortreten/repo_test:woox
+docker tag woox-image:woox odennav/nginx:woox
 sleep 5
 echo -e "\n"
 
 echo "**********************************************************"
 echo "Push tagged image to dockerhub"
-docker push victortreten/repo_test:woox
+docker push odennav/nginx:woox
 sleep 5
 echo -e "\n"
 
