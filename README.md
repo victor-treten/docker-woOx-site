@@ -1,6 +1,6 @@
-# Deploying the WoOx Website with Docker and Nginx
+# Deploying the WoOx Website with Docker
 
-Deployment automated with bash scripts.
+Deployment automated with bash scripts in test environment.
 
 ## Overview
 
@@ -10,9 +10,6 @@ This repository includes scripts to push Docker images to your DockerHub reposit
 ******************
 ![](https://github.com/odennav/docker-nginx-woox/blob/main/woox-shot.PNG) 
 
-## Special Credits
-
-Special thanks to [Templatemo](https://https://www.templatemo.com/page/1) for free CSS templates
 
 ## Getting Started
 
@@ -55,7 +52,7 @@ The provided Vagrant file simplifies VM Management.
 
    ```bash
    sudo apt-get install git
-   git clone https://github.com/odennav/docker-nginx-woox.git
+   git clone https://github.com/odennav/docker-woOx-site.git
    cd docker-nginx-woox
    ```
 
